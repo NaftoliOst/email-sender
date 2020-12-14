@@ -1,0 +1,13 @@
+C:\Users\nafto\source\repos\EmailSender\EmailSender\bin\Debug\netcoreapp3.1\EmailSender.exe
+C:\Users\nafto\source\repos\EmailSender\EmailSender\bin\Debug\netcoreapp3.1\EmailSender.deps.json
+C:\Users\nafto\source\repos\EmailSender\EmailSender\bin\Debug\netcoreapp3.1\EmailSender.runtimeconfig.json
+C:\Users\nafto\source\repos\EmailSender\EmailSender\bin\Debug\netcoreapp3.1\EmailSender.runtimeconfig.dev.json
+C:\Users\nafto\source\repos\EmailSender\EmailSender\bin\Debug\netcoreapp3.1\EmailSender.dll
+C:\Users\nafto\source\repos\EmailSender\EmailSender\bin\Debug\netcoreapp3.1\EmailSender.pdb
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.csprojAssemblyReference.cache
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.AssemblyInfoInputs.cache
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.AssemblyInfo.cs
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.csproj.CoreCompileInputs.cache
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.dll
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.pdb
+C:\Users\nafto\source\repos\EmailSender\EmailSender\obj\Debug\netcoreapp3.1\EmailSender.genruntimeconfig.cache
