@@ -1,0 +1,39 @@
+﻿<Window x:Class="EmailSenderUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EmailSenderUI"
+        mc:Ignorable="d"
+        FontSize="28"
+        Title="Email Sender" Height="450" Width="800" MinHeight="300" MinWidth="500">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock HorizontalAlignment="Right" Margin="5" Grid.Column="0" Grid.Row="0">To:</TextBlock>
+        <TextBox x:Name="To" Grid.Row="0" Grid.Column="1" Padding="2" Margin="5" Grid.ColumnSpan="2"></TextBox>
+
+        <TextBlock HorizontalAlignment="Right" Margin="5" Grid.Column="0" Grid.Row="1">Subject:</TextBlock>
+        <TextBox x:Name="Subject" Grid.Row="1" Grid.Column="1" Padding="2" Margin="5" Grid.ColumnSpan="2"></TextBox>
+
+        <TextBlock HorizontalAlignment="Right" Margin="5" Grid.Column="0" Grid.Row="2">Message:</TextBlock>
+        <TextBox x:Name="Body" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" Grid.Row="2" Grid.Column="1" Padding="2" Margin="5" Grid.ColumnSpan="2"></TextBox>
+
+        <TextBlock HorizontalAlignment="Right" Margin="5" Grid.Column="0" Grid.Row="3">Password:</TextBlock>
+        <PasswordBox x:Name="Password" Grid.Row="3" Grid.Column="1" Padding="2" Margin="5" Grid.ColumnSpan="2"></PasswordBox>
+
+
+        <Button x:Name="Send" Click="Send_Click" Grid.Column="1" Grid.Row="4" Margin="5">Send</Button>
+    </Grid>
+</Window>
